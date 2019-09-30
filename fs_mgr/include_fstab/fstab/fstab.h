@@ -84,7 +84,6 @@ struct FstabEntry {
         bool first_stage_mount : 1;
         bool slot_select_other : 1;
         bool fs_verity : 1;
-        bool wrappedkey : 1;
     } fs_mgr_flags = {};
 
     bool is_encryptable() const {
